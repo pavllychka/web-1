@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Соня",
+    "email": "spavlyk7@gmail.com",
+    "password": "1234567890-",
+    "phone": "0662488228",
+    "dob": "2025-03-09",
+    "country": "США",
+    "agreement": true
+  },
+  {
+    "id": 5,
+    "name": "Кошик Катерина",
+    "email": "koshyk@gmail.com",
+    "phone": "0662478787",
+    "dob": "2025-03-07",
+    "country": "США",
+    "password": "$2b$10$cOLk.iEuIAEjb4kYOuszpOY8V2AsBRbzqYzSm0pvycxwLauNbPpsK",
+    "photo": "/uploads/1741779087792-ÐÐ½ÑÐ¼Ð¾Ðº ÐµÐºÑÐ°Ð½Ð° 2024-09-07 173028.png"
+  },
+  {
+    "id": 6,
+    "name": "Лесь Катя",
+    "email": "leska@gmal.com",
+    "phone": "0978909090",
+    "dob": "2024-09-06",
+    "country": "Україна",
+    "password": "$2b$10$lluZHr1COHEqmHsySyACSONeK4k2VrWF/QCw.uj1cL25kachj81r2",
+    "photo": "/uploads/1741781501901-ÐÐ½ÑÐ¼Ð¾Ðº ÐµÐºÑÐ°Ð½Ð° 2024-09-12 121534.png"
+  }
+]
