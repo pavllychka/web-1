@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Адмін-панель</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Список користувачів</h2>
+    <div id="usersList"></div>
+  </div>
+
+  <!-- Модальне вікно редагування -->
+  <div id="editModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>Редагувати користувача</h3>
+      <form id="editForm">
+        <input type="text" id="editName" placeholder="Ім'я" required>
+        <input type="email" id="editEmail" placeholder="Email" required>
+        <input type="tel" id="editPhone" placeholder="Телефон" required>
+        <input type="date" id="editDob" required>
+        <select id="editCountry">
+          <option value="Україна">Україна</option>
+          <option value="США">США</option>
+          <option value="Канада">Канада</option>
+        </select>
+        <input type="file" id="editPhoto">
+        <button type="submit">Зберегти</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+</html>
+

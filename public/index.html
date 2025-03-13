@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Форма реєстрації</h2>
+        <form id="registrationForm" enctype="multipart/form-data">
+            <input type="text" id="name" name="name" placeholder="Ім'я та Прізвище" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="password" id="password" name="password" placeholder="Пароль" required>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Підтвердьте пароль" required>
+            <input type="tel" id="phone" name="phone" placeholder="Номер телефону" required>
+            <input type="date" id="dob" name="dob" required>
+            <select id="country" name="country" required>
+                <option value="">Оберіть країну</option>
+                <option value="Україна">Україна</option>
+                <option value="США">США</option>
+                <option value="Канада">Канада</option>
+            </select>
+            <input type="file" id="photo" name="photo" required>
+            <label>
+                <input type="checkbox" id="agreement" required> Згоден з умовами
+            </label>
+            <button type="submit">Зареєструватися</button>
+        </form>
+        <button onclick="window.location.href='admin.html'" class="admin-btn">Перейти в адмін-панель</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
